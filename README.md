@@ -1,6 +1,5 @@
 # SRA Explorer in Python
 
----
 ## Description
 ### `sra_explorer.py`
 Python script that allows users to explore the NCBI Sequence Read Archive and easily access metadata and FTP download information for project datasets. The output generated is a tab-delimited table that features the following fields: 
@@ -21,13 +20,11 @@ The script was created to be run on the command line, i.e. *Terminal* on macOS, 
 
 The following code can be used as a reference: `$ python sra_explorer.py GSE30567 sample_metadata.tsv`
 
----
 
 ## Installation
 **Mac OS X**: A version of Python3 is already installed.  
 **Windows**: You will need to install one of the 3.x versions available at [python.org](http://www.python.org/getit/).
 
----
 
 ## Dependencies
 The script requires ***json***, ***re***, ***sys***, ***xmltodict***, and ***urllib3*** in order to be properly executed. While sys and re packages are typically pre-installed, the json, xmltodict, and urllib3 packages are easily installed using `pip`. 
@@ -40,8 +37,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> pip install json xmltodict urllib3
 ```
 
----
-
 ## General usage information
 
 1. Download the [ZIP package](https://github.com/ananata/sra_explorer/archive/main.zip) and unzip it.
@@ -49,7 +44,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 3. If the script or output file is in a different directory from which you are trying to run it, you will need to provide full paths.
 4. The script can be opened and modified in any text editor app (e.g. TextEdit, Notepad) or Python IDE. Comments are included in the script for user convenience.
 
----
 
 ## Authors
 ***Nana Afia Twumasi-Ankrah***, Virginia Commonwealth University 
