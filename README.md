@@ -17,7 +17,7 @@ Python script that allows users to explore the NCBI Sequence Read Archive and ea
 | FASTQ_Aspera  | Aspera download link to obtain FASTQ file of sample. |
 
 The script was created to be run on the command line, i.e. *Terminal* on macOS, and *Command Prompt* on Windows. It accepts only two input arguments: (1) a SRA project accession number and (2) an output filename.
-> :warning: Please not that order matters when providing arguments. 
+> :warning: Please note that order does matter when providing arguments. 
 
 The following code can be used as a reference: `$ python sra_explorer.py GSE30567 sample_metadata.tsv`
 
